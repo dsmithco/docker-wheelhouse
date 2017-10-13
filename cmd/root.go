@@ -8,8 +8,9 @@ func init() {
 
 }
 
+// RootCmd is the root command of this application and is run in other files
 var RootCmd = &cobra.Command{
-	Use:   "wheelhouse",
+	Use: "wheelhouse",
 	Short: `Everything you need to setup, run, push, pull,
 			deploy, & monitor your container environments`,
 	Long: `Everything you need to setup, run, push, pull, deploy,
